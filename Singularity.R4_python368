@@ -61,6 +61,7 @@ From: continuumio/miniconda3
         apt-get install -y bzip2
         apt-get install -y libssl-dev
         apt-get install -y devscripts
+        
 
     cd /root
     wget https://github.com/Kitware/CMake/releases/download/v3.14.4/cmake-3.14.4.tar.gz
@@ -88,6 +89,7 @@ From: continuumio/miniconda3
     /opt/conda/envs/py36/bin/pip install h5py
     /opt/conda/envs/py36/bin/pip install snakemake
     /opt/conda/envs/py36/bin/pip install Jinja2
+    /opt/conda/envs/py36/bin/pip install xgboost
 
 
     cp /opt/conda/lib/libstdc++.so.6.0.26 /usr/lib/x86_64-linux-gnu/
