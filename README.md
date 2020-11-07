@@ -6,7 +6,7 @@ A repo for singularity images. This is linked to singularity hub and all results
 
 - Singularity.R363_python368
 
-  - To pull: `singularity pull drneavin/SingularityBaseImages:r363_python368`
+  - To pull: `singularity pull shub://drneavin/SingularityBaseImages:r363_python368`
   - Contains:
     - R 3.6.3
     - python 3.6.8
@@ -16,7 +16,7 @@ A repo for singularity images. This is linked to singularity hub and all results
     
 - Singularity.R4_python368
 
-  - To pull: `singularity pull drneavin/SingularityBaseImages:r4_python368`
+  - To pull: `singularity pull shub://drneavin/SingularityBaseImages:r4_python368`
   - Contains:
     - R 4.0.3
     - python 3.6.8
@@ -26,7 +26,7 @@ A repo for singularity images. This is linked to singularity hub and all results
   
 - Singularity.TxnDoubletDetection
 
-  - To pull: `singularity pull drneavin/SingularityBaseImages:txndoubletdetection`
+  - To pull: `singularity pull shub://drneavin/SingularityBaseImages:txndoubletdetection`
   - Built on top of `Singularity.R4_python368` image
   - Also contains:
     - DoubletDetection
