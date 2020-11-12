@@ -64,7 +64,8 @@ From: shub://drneavin/SingularityBaseImages:r363_python368
     mv /usr/lib/x86_64-linux-gnu/libstdc++.so.6 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.bkp
     ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.26 /usr/lib/x86_64-linux-gnu/libstdc++.so.6
 
-
+    R --slave -e 'BiocManager::install("scran")'
+    R --slave -e 'BiocManager::install("MultiAssayExperiment")'
     R --slave -e 'remotes::install_github("hesselberthlab/scrunchy")'
     R --slave -e 'devtools::install_github("EDePasquale/DoubletDecon")'
     R --slave -e 'remotes::install_github("chris-mcginnis-ucsf/DoubletFinder")'
