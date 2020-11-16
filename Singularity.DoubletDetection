@@ -13,6 +13,8 @@ From: shub://drneavin/SingularityBaseImages:r363_python368
     apt update
     yes | apt upgrade
     
+    /opt/conda/envs/py36/bin/pip install -U numba==0.49.1
+
     cd /opt
         wget https://github.com/10XGenomics/subset-bam/releases/download/1.0/subset-bam-1.0-x86_64-linux.tar.gz
         tar -xf subset-bam-1.0-x86_64-linux.tar.gz
